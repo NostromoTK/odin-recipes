@@ -1,4 +1,4 @@
-* {
+html {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     
@@ -7,6 +7,7 @@
 h1 {
     width: 500px;
     margin: 0 auto;
+    display: flex;
 }
 
 
@@ -40,19 +41,16 @@ ol {
 div {
     width:500px;
     margin: 10px auto;
+
 }
 
-.links{
+.title {
+    display: flex;
+}
+
+.recipes {
     border: solid black;
+    display: inline-block;
     background-color: skyblue;
-    width: 90px;
-    padding-left: 5px;
-    padding-right: 5px; 
-    padding-top: 0px;
-    padding-bottom: 0px
-}
-
-#lasagne {
-
-
+    padding: 2px;
 }
