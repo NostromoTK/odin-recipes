@@ -1,7 +1,10 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    
+    background-image: url("../images/bread.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background: blur(10px)
 }
 
 h1 {
@@ -17,6 +20,7 @@ p {
     width: 500px;
     margin: 0 auto;
     padding: 8px;
+    background-color: white;
 }
 
 h2 {
@@ -27,10 +31,15 @@ h2 {
 ul {
     width: 500px; 
     margin: 0 auto;
+    background-color: white;
+    border: solid black;
 }
 
-li {
+.steps {
     margin: 6px auto;
+    border: solid black;
+    padding: 4px;
+    background-color: white;
 }
 
 ol {
@@ -51,6 +60,7 @@ div {
 .recipes {
     border: solid black;
     display: inline-block;
-    background-color: skyblue;
+    background-color: white;
     padding: 2px;
 }
+
